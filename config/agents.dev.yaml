@@ -1,0 +1,13 @@
+agents:
+  maximus84:
+    agent_id: maximus84
+    backend: cloud_run_adk
+    model: gemini-3.8-flash
+    base_url: https://maximus84-281577273798.us-central1.run.app
+    app_name: app
+    region: us-central1
+    model_endpoint_location: us-central1
+    streaming_enabled: true
+    persistence_enabled: true
+    auth_policy: firebase
+    runtime_session_cleanup: cloud_run_adk
